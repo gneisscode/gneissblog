@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100&display=swap");
+.featured__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px #2b2b2b;
+  position: relative;
+  width: 90%;
+  margin: auto;
+  margin-top: 2em;
+}
+.post {
+  border: solid 1px #2b2b2b;
+  position: absolute;
+  top: -10px;
+  left: -1px;
+  background-color: white;
+  padding: 8px 16px 8px 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.25em;
+}
+
+.feat__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.feat__img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.date {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 1em;
+  margin-top: 1em;
+  align-self: flex-start;
+  color: #595959;
+}
+
+.feat__text {
+  display: none;
+}
+.content {
+  padding: 1em;
+}
+
+.content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+  .featured__wrapper {
+    width: 824px;
+    height: 550.91px;
+    margin-top: 87px;
+  }
+
+  .feat__img {
+    height: 370.91px;
+  }
+
+  .post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 52px;
+    font-size: 16px;
+    text-align: center;
+    top: -1.5em;
+  }
+
+  .feat__text {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #595959;
+    line-height: 21px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+  }
+
+  .date {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+}

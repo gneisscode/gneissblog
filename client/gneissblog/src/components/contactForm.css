@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+.contact__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.contact__wrapper h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 37.32px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+  color: #2B2B2B;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 12px;
+  font-weight: 400;
+}
+
+.detail__wrapper input{
+    border: none;
+    border-bottom: solid 1px black;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.contact__btn {
+  width: 200px;
+  height: 41px;
+  background-color: #791e90;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  align-self: center;
+}
+
+
+.contact__wrapper textarea{
+    border: none;
+     border-bottom: solid 1px black;
+    margin-bottom: 2em;
+}
+
+.contact__wrapper textarea:focus{
+  outline: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+.contact__wrapper{
+  width: 760px;
+  margin-top: 40px;
+  align-self: center;
+  gap: 0.5em;
+}
+
+.name {
+  flex-direction: row;
+  gap: 2em;
+}
+
+.name .detail__wrapper{
+  width: 360px;
+  height: 64px;
+}
+
+.contact__wrapper h1{
+  margin-bottom: 56px;
+}
+
+}
