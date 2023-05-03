@@ -11,6 +11,8 @@
   line-height: 18px;
   color: #595959;
   background-color: #faf2fc;
+  width: 100%;
+  justify-self: flex-end;
 }
 
 @media screen and (min-width: 1024px) {

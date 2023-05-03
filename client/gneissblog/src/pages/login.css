@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+.login__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4em;
+  height: 60%;
+  font-family: "Montserrat", sans-serif;
+   border:  solid 1px #2b2b2b;
+  border-radius: 0.25em;
+  margin: auto;
+  margin-top: 6em;
+}
+.login img {
+  height: 60px;
+  align-self: center;
+  margin-bottom: 1em;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+ 
+  margin-top: 2em;
+}
+
+.loginTitle{
+    text-align: center;
+    font-size: 24px;
+}
+
+.login__input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2em;
+}
+
+.loginForm input {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  margin-left: 1em;
+  padding: 1em;
+  border: none;
+  border-bottom: solid 1px #2b2b2b;
+}
+
+.loginForm input:focus{
+    outline: none;
+}
+
+
+
+.loginForm label{
+    min-width: 84px;
+    color: #791e90;
+    font-weight: 500;
+}
+
+.login button {
+  width: 140px;
+  height: 41px;
+  background-color: #791e90;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.login button:hover{
+     background-color: #984fac;
+
+}
+
+
+@media screen  and (max-width:765px){
+    .login{
+        width: 100%;
+    }
+
+
+
+.loginForm input{
+    width:200px;
+}
+.loginForm label{
+    max-width: 74px;
+    margin-left: 0.5em;
+}
+    
+}
